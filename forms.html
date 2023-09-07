@@ -29,14 +29,85 @@
 
         <!--Label and password input field-->
         <label for="password">Password:</label>
-        <input type="password" id="password"
+        <input type="password" id="password" name="password" placeholder="Enter your password">
 
+        <br>
 
+        <!--Label and number input field-->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100">
 
+        <br>
 
+        <!--Radio buttons for gender selection-->
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
 
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <br>
+
+        <!--Checkbox for newsletter subscription-->
+        <label for="subscribe">Subscribe to newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+        <br>
+
+        <!--Dropdown select for country selection-->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="mexico">Mexico</option>
+            <!--you can add more options -->
+        </select>
+
+        <br>
+
+        <!--text area for additional comments-->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <br>
+
+        <!--File input for uploading files-->
+        <label for="file">Upload your photo:</label>
+        <input type="file" id="file" name="file">
+
+        <br>
+
+        <!--Hidden input field (not visible to users)-->
+        <input type="hidden" id="userId" value="12345">
+
+        <br>
+
+        <!--Range input for selecting a value within a range-->
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="10">
+
+        <br>
+
+        <!--Data input for selecting a date-->
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" id="birthdate" name="birthdate">
+
+        <br>
+
+        <!--color input for selecting a color-->
+        <label for="favcolor">Favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+
+        <br>
+
+        <!--Submit button to submit the form-->
+        <input type="submit" value="Submit">
+
+        <!--Reset button to reset the form fields-->
+        <input type="reset" value="reset">
 
  </form>
+ <!--end of form element-->
 
 </main>
 <footer>
