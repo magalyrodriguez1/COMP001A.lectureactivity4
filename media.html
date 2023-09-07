@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>COMP001A Lecture Activity 4 | media</title>
+    <title>COMP001A Lecture Activity 4 | Media</title>
 </head>
 <body>
 <header>
@@ -18,12 +18,43 @@
     </nav>
 </header>
 <main>
-  
+  <!--beginning of the audio section-->
+  <section id="audioSample">
+    <!--heading for the audio section-->
+    <h2>Audio with controls</h2>
+
+    <!--the 'controls' attribute adds audio controls like play, pause, and volume-->
+    <audio controls>
+    <!--source for the audio file-->
+    <!-- the 'src' attribute specifies the path to the audio file-->
+    <source src="media/welcome.mp3" type="audio/mp3">
+    <!--fallback content in case the audio isn't supported-->
+    Your browser does not support the audio element.
+    </audio>
+  </section>
+  <!--end of the audio section-->
+  <hr>
+
+  <!--beginning of the video section-->
+  <section id="videoSample">
+<!--heading for the video section-->
+<h2>Video with control</h2>
+
+<!--the 'controls' attribute adds video controls, like play, pause, and volume-->
+<video width="320" height="240" controls>
+    <!--source for the video file-->
+    <!--the 'src' attribute specifies the path to the video file-->
+    <source src="media/sampson.mp4" type="video/mp4">
+    <!--Fallback content in case the video isn't supported-->
+    Your browser does not support the video element.
+</video>
+  </section>
+  <!--end of the video section-->
 
 </main>
 <footer>
     <p>&copy; 2023 Copyright Mrodriguez Inc. | <a href="https://github.com/magalyrodriguez1" 
-        target="_self">Github</a></p>
+        target="_blank">Github</a></p>
 </footer>
 </body>
 
